@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Construmax</title>
+<link rel="stylesheet" href="style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+    color: white;
+    z-index: 2;
+}
+
+.header nav a {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.header button {
+    padding: 8px 15px;
+    border: none;
+    background: #FFD700;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.hero {
+    height: 100vh;
+    background: url('https://i.ytimg.com/vi/7lHr6QIutrg/maxresdefault.jpg') no-repeat center/cover;
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 60px;
+}
+
+.hero::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0,0,0,0.6);
+}
+
+.hero-content {
+    position: relative;
+    max-width: 600px;
+    color: white;
+}
+
+.hero h1 {
+    font-size: 48px;
+}
+
+.hero span {
+    color: #FFD700;
+}
+
+.hero p {
+    margin: 20px 0;
+    color: #ccc;
+}
+
+
+.search-box {
+    display: flex;
+    gap: 10px;
+}
+
+.search-box input {
+    padding: 12px;
+    border-radius: 8px;
+    border: none;
+}
+
+.search-box button {
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    background: #FFD700;
+    cursor: pointer;
+}
+
+.categorias {
+    padding: 40px;
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.card {
+    padding: 20px;
+    background: #f2f2f2;
+    border-radius: 10px;
+}
+
+
+.profissionais {
+    padding: 40px;
+    text-align: center;
+}
+
+
+.footer {
+    background: #222;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+</style>
+
+</head>
+<body>
+
+<header class="header">
+    <h2>CONSTRUMAX</h2>
+
+    <nav>
+        <a href="#">Início</a>
+        <a href="#">🔍Buscar</a>
+        <a href="#">❤️Favoritos</a>
+        <a href="#">💬Chat</a>
+        <button>Anunciar</button>
+    </nav>
+</header>
+
+<section class="hero">
+    <div class="hero-content">
+        <h1>
+            Serviços e Aluguel de Máquinas 
+            <span>em um só lugar</span>
+        </h1>
+
+        <p>
+            Encontre os melhores profissionais e equipamentos certificados.
+        </p>
+
+        <div class="search-box">
+            <input type="text" placeholder="Seu CEP">
+            <input type="text" placeholder=" De que serviço ou máquina precisa?">
+            <button>Buscar</button>
+        </div>
+    </div>
+</section>
+
+<section class="categorias">
+    <h2>Explorar Categorias</h2>
+
+    <div class="cards">
+        <div class="card">Autônomos</div>
+        <div class="card">Locação de máquinas</div>
+        <div class="card">artur de cueca</div>
+
+    </div>
+</section>
+
+<section class="profissionais">
+    <h2>Profissionais recomendados</h2>
+
+    <div class="cards">
+        <div class="card">
+            <p>João Silva</p>
+            <p>Encanador</p>
+            <p>R$ 180/hr</p>
+            <button>Ver Perfil</button>
+        </div>
+
+        <div class="card">
+            <p>Marcos Mendes</p>
+            <p>R$ 120/hr</p>
+            <button>Ver Perfil</button>
+        </div>
+
+        <div class="card">
+            <p>Atur</p>
+            <p>R$ 1,20/hr</p>
+            <p> 4.2 /p>
+            <p>Sao jose dos campos - sp</p>
+            <button>Ver Perfil</button>
+        </div>
+    </div>
+</section>
+
+<footer class="footer">
+    <p>© 2024 Construmax</p>
+    <p>Links úteis</p> 
+    <p>FAQ</p> 
+    <p>Ajuda</p> 
+</div>
+</footer>
+
+</body>
+</html>

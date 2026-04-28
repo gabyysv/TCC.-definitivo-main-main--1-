@@ -8,128 +8,6 @@
 
 <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow:wght@400;500;600;700&display=swap" rel="stylesheet">
 
-<style>
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, sans-serif;
-}
-
-.header {
-    position: absolute;
-    top: 0;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 60px;
-    color: white;
-    z-index: 2;
-}
-
-.header nav a {
-    margin: 0 10px;
-    color: white;
-    text-decoration: none;
-}
-
-.header button {
-    padding: 8px 15px;
-    border: none;
-    background: #FFD700;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-.hero {
-    height: 100vh;
-    background: url('https://i.ytimg.com/vi/7lHr6QIutrg/maxresdefault.jpg') no-repeat center/cover;
-    position: relative;
-    display: flex;
-    align-items: center;
-    padding: 60px;
-}
-
-.hero::before {
-    content: "";
-    position: absolute;
-    inset: 0;
-    background: rgba(0,0,0,0.6);
-}
-
-.hero-content {
-    position: relative;
-    max-width: 600px;
-    color: white;
-}
-
-.hero h1 {
-    font-size: 48px;
-}
-
-.hero span {
-    color: #FFD700;
-}
-
-.hero p {
-    margin: 20px 0;
-    color: #ccc;
-}
-
-
-.search-box {
-    display: flex;
-    gap: 10px;
-}
-
-.search-box input {
-    padding: 12px;
-    border-radius: 8px;
-    border: none;
-}
-
-.search-box button {
-    padding: 12px 20px;
-    border: none;
-    border-radius: 8px;
-    background: #FFD700;
-    cursor: pointer;
-}
-
-.categorias {
-    padding: 40px;
-    text-align: center;
-}
-
-.cards {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    margin-top: 20px;
-}
-
-.card {
-    padding: 20px;
-    background: #f2f2f2;
-    border-radius: 10px;
-}
-
-
-.profissionais {
-    padding: 40px;
-    text-align: center;
-}
-
-
-.footer {
-    background: #222;
-    color: white;
-    padding: 20px;
-    text-align: center;
-}
-</style>
-
 </head>
 <body>
 
@@ -137,11 +15,12 @@
     <h2>CONSTRUMAX</h2>
 
     <nav>
-        <a href="#">Início</a>
-        <a href="#">🔍Buscar</a>
-        <a href="#">❤️Favoritos</a>
-        <a href="#">💬Chat</a>
-        <button>Anunciar</button>
+        <a href="#" class="fx-push"> Início</a>
+        <a href="#" class="fx-push">🔍 Buscar</a>
+        <a href="#" class="fx-push">❤️ Favoritos</a>
+        <a href="#" class="fx-push">💬 Chat</a>
+        <a href="#" class="fx-push"> Anunciar</a>
+    
     </nav>
 </header>
 
@@ -158,7 +37,7 @@
 
         <div class="search-box">
             <input type="text" placeholder="Seu CEP">
-            <input type="text" placeholder=" De que serviço ou máquina precisa?">
+            <input type="text" placeholder="De que serviço ou máquina precisa?">
             <button>Buscar</button>
         </div>
     </div>
@@ -171,7 +50,6 @@
         <div class="card">Autônomos</div>
         <div class="card">Locação de máquinas</div>
         <div class="card">artur de cueca</div>
-
     </div>
 </section>
 
@@ -180,34 +58,37 @@
 
     <div class="cards">
         <div class="card">
+            <img src="/TCC.-definitivo-main-main/TCC.-definitivo-main-main/img/84b2cc162679111.Y3JvcCwxMDUyLDgyMiwwLDgz.png" alt="">
             <p>João Silva</p>
             <p>Encanador</p>
             <p>R$ 180/hr</p>
-            <button>Ver Perfil</button>
+            <button >Ver Perfil</button>
         </div>
 
         <div class="card">
+            <img src="/TCC.-definitivo-main-main/TCC.-definitivo-main-main/img/destaque64.jpg" alt="">
             <p>Marcos Mendes</p>
+            <p>devorador de sonhos </p>
             <p>R$ 120/hr</p>
             <button>Ver Perfil</button>
         </div>
 
         <div class="card">
+            <img src="/TCC.-definitivo-main-main/TCC.-definitivo-main-main/img/images (1).jpg" alt="">
             <p>Atur</p>
+            <p>gogoboy</p>
             <p>R$ 1,20/hr</p>
-            <p> 4.2 /p>
-            <p>Sao jose dos campos - sp</p>
+            <p>São José dos Campos - SP</p>
             <button>Ver Perfil</button>
         </div>
     </div>
 </section>
 
 <footer class="footer">
-    <p>© 2024 Construmax</p>
+    <p  >© 2026 Construmax</p>
     <p>Links úteis</p> 
     <p>FAQ</p> 
     <p>Ajuda</p> 
-</div>
 </footer>
 
 </body>

@@ -4,79 +4,128 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Construmax</title>
+
 <link rel="stylesheet" href="style.css">
-
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow:wght@400;500;600;700&display=swap" rel="stylesheet">
-
 </head>
+
 <body>
-
-<header class="header">
-    <h2>CONSTRUMAX</h2>
-
-    <nav>
-        <a href="#" class="fx-push"> Início</a>
-        <a href="#" class="fx-push">🔍 Buscar</a>
-        <a href="#" class="fx-push">❤️ Favoritos</a>
-        <a href="#" class="fx-push">💬 Chat</a>
-        <a href="#" class="fx-push"> Anunciar</a>
     
+<header class="navbar">
+    <div class="logo">
+        <span>CONSTRUMAX</span>
+    </div>
+
+
+    <nav class="menu">
+         <a href="#" class="fx-push">Início</a>
+        <a href="#" class="fx-push"></a>
+        <a href="#" class="fx-push"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+  <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15"/>
+</svg> Favoritos</a>
+        <a href="#" class="fx-push"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chat-left" viewBox="0 0 16 16">
+  <path d="M14 1a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H4.414A2 2 0 0 0 3 11.586l-2 2V2a1 1 0 0 1 1-1zM2 0a2 2 0 0 0-2 2v12.793a.5.5 0 0 0 .854.353l2.853-2.853A1 1 0 0 1 4.414 12H14a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2z"/>
+</svg> Chat </a>
+
+
+    </nav>
+    <div class="nav-buttons">
+        <button class="btn-login">Entrar</button>
+        <button class="btn-cadastro">Cadastrar</button>
+    </div>
     </nav>
 </header>
+
 
 <section class="hero">
     <div class="hero-content">
         <h1>
-            Serviços e Aluguel de Máquinas 
+            Serviços e Aluguel de Máquinas
             <span>em um só lugar</span>
         </h1>
 
+
         <p>
-            Encontre os melhores profissionais e equipamentos certificados.
+            Encontre os melhores profissionais mais perto de você e equipamentos certificados.
         </p>
 
+
         <div class="search-box">
-            <input type="text" placeholder="Seu CEP">
+            <input type="text" placeholder= "Seu CEP">
             <input type="text" placeholder="De que serviço ou máquina precisa?">
             <button>Buscar</button>
         </div>
     </div>
 </section>
 
+
 <section class="categorias">
+
+
     <h2>Explorar Categorias</h2>
 
-    <div class="cards">
-        <div class="card">Autônomos</div>
-        <div class="card">Locação de máquinas</div>
-        <div class="card">artur de cueca</div>
+
+    <div class="categorias-grid">
+        <div class="servico-card">
+            <i class="fa-solid fa-dumpster"></i>"
+            <h3>Pedreiros</h3>
+        </div>
+
+
+        <div class="servico-card">
+            <i class="fa-solid fa-wrench"></i>
+            <h3>Eletricistas</h3>
+        </div>
+
+
+        <div class="servico-card">
+            <i class="fa-solid fa-truck"></i>
+            <h3>Escavadeiras</h3>
+        </div>
+
+
+        <div class="servico-card">
+            <i class="fa-solid fa-truck"></i>
+            <h3>Betoneiras</h3>
+        </div>
+
+
+        <div class="servico-card">
+            <i class="fa-solid fa-screwdriver-wrench"></i>
+            <h3>Furadeiras</h3>
+        </div>
     </div>
 </section>
+
 
 <section class="profissionais">
     <h2>Profissionais recomendados</h2>
 
+
     <div class="cards">
         <div class="card">
-            <img src="/TCC.-definitivo-main-main/TCC.-definitivo-main-main/img/84b2cc162679111.Y3JvcCwxMDUyLDgyMiwwLDgz.png" alt="">
+            <img src="/TCC.-definitivo-main-main/img/minions-assasino.webp" alt="foto card">
             <p>João Silva</p>
             <p>Encanador</p>
             <p>R$ 180/hr</p>
             <button >Ver Perfil</button>
         </div>
 
+
         <div class="card">
-            <img src="/TCC.-definitivo-main-main/TCC.-definitivo-main-main/img/destaque64.jpg" alt="">
+            <img src="/TCC.-definitivo-main-main/img/minios-django.webp" alt="foto card">
             <p>Marcos Mendes</p>
             <p>devorador de sonhos </p>
             <p>R$ 120/hr</p>
             <button>Ver Perfil</button>
         </div>
 
+
         <div class="card">
-            <img src="/TCC.-definitivo-main-main/TCC.-definitivo-main-main/img/images (1).jpg" alt="">
+            <img src="/TCC.-definitivo-main-main/img/mionios-subzero.webp" alt="foto card">
             <p>Atur</p>
-            <p>gogoboy</p>
+            <p> desempregado</p>
             <p>R$ 1,20/hr</p>
             <p>São José dos Campos - SP</p>
             <button>Ver Perfil</button>
@@ -84,12 +133,18 @@
     </div>
 </section>
 
+
+
+
 <footer class="footer">
-    <p  >© 2026 Construmax</p>
-    <p>Links úteis</p> 
-    <p>FAQ</p> 
-    <p>Ajuda</p> 
+    <p> © 2026 Construmax</p>
+    <p>Links úteis</p>
+    <p>FAQ</p>
+    <p>Ajuda</p>
 </footer>
+
+
+
 
 </body>
 </html>

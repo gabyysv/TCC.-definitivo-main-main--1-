@@ -24,8 +24,8 @@
     display: flex;
     align-items: center;
     gap: 12px;
-    color: white;
-    font-size: 28px;
+    color: #ffd000;
+    font-size: 21px;
     font-weight: bold;
 }
 .menu { 
@@ -33,9 +33,8 @@
     gap: 45px;
 }
 
-
 .menu a { /* a barra de navegação */
-    color: rgb(0, 0, 0);
+    color: #fffefa;
     text-decoration: none;
     font-size: 18px;
     font-weight: bold;
@@ -69,7 +68,6 @@
     box-shadow: 0 4px 0 #8a7200, 0 4px 8px rgba(0, 0, 0, 0.25);
 }
 
-
 .btn-cadastro { /* efeito de botao login e cadastro */
     background: #FFD700;
     color: black;
@@ -89,31 +87,24 @@
     box-shadow: 0 0 0 #8a7200, 0 1px 2px rgba(0, 0, 0, 0.3);
 }
 
-
-
-
-/* BOTAO COM EFEITO DE CIMA */
+/* BOTAO COM EFEITO  */
 .fx-push {
     color: #000000;
-    background: linear-gradient(145deg, #FFD700 0%);
-    box-shadow: 0 2px 0 #000000, 0 1px 3px rgba(0, 0, 0, 0.3);
     transition: all 0.1s ease;
     padding: 8px 15px;
-    border-radius: 5px;
     display: inline-block;
 }
-
 
 .fx-push:hover {
     box-shadow: 0 2px 0 #000000, 0 1px 1px rgba(0, 0, 0, 0.3);
     transform: translateY(4px);
 }
 
-
 .fx-push:active {
     box-shadow: 0 0 0 #000000, 0 1px 2px rgba(0, 0, 0, 0.3);
     transform: translateY(2px);
 }
+
 /* layout de inicio */
 .hero {
     height: 75vh;
@@ -124,14 +115,12 @@
     padding: 60px;
 }
 
-
 .hero:before {
     content: "";
     position: absolute;
     inset: 0;
     background: rgba(0, 0, 0, 0.6);
 }
-
 
 .hero-content {
     position: relative;
@@ -214,10 +203,13 @@
 
 /* CATEGORIAS aba */
 .categorias {
-   background: #f5f6f8;
-    padding: 50px 25px;
+    color: #ffffff;
+    padding:50px;
     text-align: left;
+    background-color: #111;
+  
 }
+
 
 .categorias-grid {
     display: grid;
@@ -230,7 +222,7 @@
 /* CARDS DE CATEGORIAS */
 .servico-card {
     width: 100%;
-    height: 175px;
+    height: 100px;
     background: white;
     border: 1px solid #ddd;
     border-radius: 8px;
@@ -276,6 +268,8 @@
 .profissionais {
     padding: 50px;
     text-align: left;
+    color : white;
+   background-color: #111;
 }
 
 
@@ -291,7 +285,7 @@
 /* CARDS DE PROFISSIONAIS slay */
 .card {
     padding: 20px;
-    background: #f2f2f2;
+    background: #2a2929;
     border-radius: 10px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
